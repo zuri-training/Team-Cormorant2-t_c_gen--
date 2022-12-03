@@ -1,4 +1,4 @@
-# Team-Cormorant2-T-C-generator
+# Team-Cormorant2-T_C_Gen
 <h4> A platform that allows users to generate t&amp;c and privacy policy designed by Team Cormorant2. </h4>
 
 <h2> Tools and Technologgies</h2>

@@ -11,7 +11,7 @@
  
 <h3> Product Design </h3>
 <ul>
-    <li>  Figma </li>
+    <li> Figma </li>
   </ul>
   
 <h3> Frontend </h3>

@@ -11,6 +11,12 @@ const connectDatabase = require("./config/dataBase");
 app.use(express.json());
 app.use(cors());
 
+// Router
+const authenticationRouter = require("./router/authRoutes")
+
+
+app.use("/api/auth", authenticationRouter)
+
 const port = process.env.PORT || 5000
 
 const startServer = () => {

@@ -5,19 +5,11 @@
 
 html {
   display: flex;
-  height: 100%;
-  width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-main {
-  width: 1280px;
-  margin: auto;
-}
-
 body {
-  min-width: 100%;
   font-family: 'Poppins';
   display: flex;
   flex-direction: column;
@@ -68,11 +60,13 @@ body {
 
 /* =================================== End of dropdown CSS */
 
-
+header {
+  width: 100%;
+}
 
 nav {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 79px;
   left: 0px;
   top: 0px;
@@ -141,7 +135,7 @@ nav {
 /* start of main */
 #header-section {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 554px;
   left: 0px;
   top: 79px;
@@ -149,7 +143,6 @@ nav {
   background: white;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
 }
 
 #header-text h1 {
@@ -158,17 +151,11 @@ nav {
   height: 108px;
   left: 72px;
   top: 114px;
-
-  /* Heading Text/h3: Bold */
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-
-  /* Blue Color/ 1100 */
-
   color: #091A2E;
 }
 
@@ -182,18 +169,12 @@ nav {
   height: 108px;
   left: 74px;
   top: 226px;
-  
-  /* Body Text/b1: Regular */
-  
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   text-align: justify;
-  
-  /* Grey Color/ 1000 */
-  
   color: #2B2B2B;  
 }
 
@@ -204,15 +185,11 @@ nav {
   align-items: center;
   padding: 13px 24px;
   gap: 10px;
-  
   position: absolute;
   width: 261px;
   height: 55px;
   left: 74px;
   top: 358px;
-  
-  /* Blue Color/600 */
-  
   background: #2D80E5;
   border-radius: 6px;
 }
@@ -227,7 +204,7 @@ nav {
 
 #businesses {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 480px;
   left: 0px;
   top: 633px;
@@ -264,7 +241,6 @@ nav {
   align-items: flex-start;
   padding: 20px 24px;
   gap: 12px;
-  
   position: absolute;
   width: 220px;
   height: 238px;
@@ -438,7 +414,7 @@ nav {
 
 #features-section {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 1403px;
   left: 0px;
   top: 1076px;
@@ -562,7 +538,6 @@ nav {
 .feature {
   box-sizing: border-box;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
   padding: 30px;
@@ -585,7 +560,7 @@ nav {
 
 #services-section {
   position: absolute;
-  width: 1279px;
+  width: 100%;
   height: 506px;
   left: 1px;
   top: 2479px;
@@ -786,7 +761,7 @@ nav {
 
 #testimonial-section {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 360px;
   left: 0px;
   top: 3156px;
@@ -951,7 +926,7 @@ nav {
 
 #faq-section {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 560px;
   left: 0px;
   top: 3516px;
@@ -1005,18 +980,12 @@ td {
 #documentation-section {
   box-sizing: border-box;
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 180px;
   left: 0px;
   top: 4076px;
-
-  /* White Color/Color */
-
   background: #FFFFFF;
-  /* Blue Color/ 700 */
-
   border: 2px solid #266BBF;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1028,20 +997,12 @@ td {
   height: 42px;
   left: 73px;
   top: 69px;
-
-  /* Heading Text/h5: Bold */
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 42px;
-  /* identical to box height */
-
   text-align: justify;
-
-  /* Blue Color/ 900 */
-
   color: #174073;
 }
 
@@ -1058,9 +1019,6 @@ td {
   height: 48px;
   left: 968px;
   top: 66px;
-
-  /* Blue600 */
-
   background: #158EFF;
   border-radius: 6px;
 }
@@ -1070,15 +1028,11 @@ td {
 
 footer {
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 220px;
   left: 0px;
   top: 4256px;
-
-  /* Blue Color/800 */
-
   background: #1E5599;
-
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

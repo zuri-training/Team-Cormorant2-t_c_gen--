@@ -1,0 +1,256 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 50px;
+}*/
+.navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+
+/*.authentication_links{
+    vertical-align: top;
+    width: 35px;
+    box-sizing: 35px;
+    background-color: rgba(0, 0, 255, 0.795);
+} */
+
+nav {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+span {
+    color: #2D80E5;
+}
+
+.p1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 40;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #0F2B4C;
+}
+
+.text,
+p {
+    text-align: justify;
+    color: #0F2B4C;
+}
+
+/*.dtl2{
+    position: absolute;
+    width: 631px;
+    height: 135px;
+    left: 76px;
+    top: 199px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #0F2B4C;
+}*/
+.Team {
+    position: absolute;
+    width: 950px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    color: #0F2B4C;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    font-weight: none;
+}
+
+.imgdiv {
+    /*float: right;
+    position: absolute;
+    width: 352.69px;
+    height: 200px;
+    left: 800px;
+    top: 100px;
+    align-items: right;*/
+    float: right;
+    align-items: center;
+    height: 350.3926696777344px;
+    width: 470.25px;
+    left: 805px;
+    top: 44.625px;
+    border-radius: 0px;
+
+}
+
+.detail {
+    height: 54px;
+    width: 680px;
+    left: 800px;
+    top: 200px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 36px;
+    /*font-weight: 700;
+    line-height: 54px;*/
+    letter-spacing: 0em;
+    text-align: left;
+    color: #06123D;
+}
+
+/*
+p{
+    position: absolute;
+    font-family: 'Poppins';
+    color: #0F2B4C;
+}*/
+.detail1 {
+    float: right;
+    /*justify-content:center;*/
+    width: 170px;
+    height: 120px;
+    margin-left: 300px;
+}
+
+.mission {
+    float: right;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 20px;
+    width: 170px;
+    height: 120px;
+    margin-left: 300px;
+}
+
+/*h3{
+    position: absolute;
+    width: 532px;
+    height: 162px;
+    left: 684px;
+    top: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #06123D;
+}*/
+
+/*.footer_part {
+    width: 90%;
+    max-width: none;
+}*/
+
+.footer_logo,
+.footer_part h3 {
+    font-size: 1.3rem;
+}
+
+.footer_part {
+    background-color: #1E5599;
+    padding: 2rem 0;
+}
+
+.footer-section__middle-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_Company {
+    text-align: center;
+    justify-content: space-around;
+    left: 100px;
+    display: flex;
+}
+
+.footer_agreements {
+    display: flex;
+    flex-direction: row;
+    justify-content: middle;
+    align-items: center;
+}
+
+.footer_Support {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.register {
+    height: 35px;
+    width: 123px;
+    left: 1087px;
+    top: 28px;
+    border-radius: 6px;
+    border: 1px solid #2D80E5;
+    padding: 13px 24px 13px 24px;
+    background-color: #2D80E5;
+    color: #FFFFFF;
+}
+
+.login {
+    height: 35px;
+    width: 123px;
+    left: 1087px;
+    top: 28px;
+    border-radius: 6px;
+    padding: 13px 24px 13px 24px;
+    border: 1px solid #2D80E5;
+    background: transparent;
+    color: #2D80E5;
+}
+
+/*.bottom-footer {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+/*h3{
+    color: #06123D;
+}
+p{
+    text-align: justify;
+}
+.footer_copyright{
+    position: absolute;
+    width: 100%;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: left;
+    bottom: 0;
+}*/

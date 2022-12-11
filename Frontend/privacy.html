@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="privacy.css">
-    <title>Document</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); </style>
+    <link rel="stylesheet" href="./privacy.css">
+    <title>Privacy Policy</title>
 </head>
 <body>
-    <header>
-      <img id = "head-logo" src="zuri logo 1 (1).png">
-      <nav>
-        <ul>
-          <li><a href="prouct.html">Product</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="document.html">Documents</a></li>
-        </ul>
-      </nav>
-      <div id="button-header">
-        <button id="login">Login</button>
-        <button id="register">Register</button>
-      </div>
-    </header>
+  <header>
+    <nav>
+        <div id="siteLogo">
+           <a href="./index.html"><img class="zuriLogo" src="./images/zuri logo 1.png"></a> 
+        </div>
+
+        <div id="nav-links">
+
+            <!-- added for dropdown-->
+            <div class="dropdown">
+                <a href="#">Products</a>
+                <div class="dropdown-content">
+                    <a href="t&c.html">Terms and Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+
+            <!-- end of dropdown -->
+
+            <!-- <a href="#">Product</a> -->
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+            <a href="#">Documents</a>
+        </div>
+
+        <div id="nav-btn">
+            <a id="login" href="login.html">Login</a>
+            <a id="register" href="signup.html">Register</a>
+        </div>
+    </nav>
+</header>
     <main>
       <div id="ist-page">
         <div id="text">
           <h1 id="h1-ist">Create a custom privacy policy in <span><br>less than 5 minutes.</span></h1>
           <p id="p-ist">Create a free privacy policy (a.k.a privacy or terms) for your website or apps.</p>
-          <button id ="docu" >Generate Documentation</button>
+          <a href="#"> <button id ="docu"> Generate Documentation</button> </a>
         </div>
         <div id="image">
-          <img id="header-img" src="Screenshot 2022-12-08 194804.png">
+          <img id="header-img" src="images/Screenshot 2022-12-08 194804.png">
         </div>
       </div>
       <div id="second-page">
@@ -41,150 +58,177 @@
         </div>
         <div class="all-platforms">
           <div class="platform">
-            <img src="Frame 59.png">
+            <img src="images/Frame 59.png">
             <p>Website</p>
           </div>
           <div class="platform">
-            <img src="Frame 59 (1).png">
+            <img src="images/Frame 59 (1).png">
             <p>SaaS</p>
           </div>
           <div class="platform">
-            <img src="Frame 59 (2).png">
+            <img src="images/Frame 59 (2).png">
             <p>Mobile Apps</p>
           </div>
           <div class="platform">
-            <img src ="Frame 59 (3).png">
+            <img src ="images/Frame 59 (3).png">
             <p>Facebook Store</p>
           </div>
           <div class="platform">
-            <img src="Frame 59 (4).png">
+            <img src="images/Frame 59 (4).png">
             <p>E-Commerce</p>
           </div>
           <div class="platform">
-            <img src="Frame 59 (5).png">
+            <img src="images/Frame 59 (5).png">
             <p>Others</p>
           </div>
         </div>
       </div>
       <div id="third-page">
         <div class="right">
-          <h2><b>Free privacy policy generator</b></h2>
-          <p>Our free privacy policy generator provides you with a custom and and legally complaint privacy policy.</p>
+          <h2><b>Free privacy policy <br>generator</b></h2>
+          <p>Our free privacy policy generator provides you with a custom <br> and and legally complaint privacy policy.</p>
         </div>
         <div class="left">
           <div class="first line">
             <div class="no-checkmark">
               <figire>
-                <img src="Frame 72.png">
-                <figcaption>Built for every business</figcaption>
+                <img src="images/Frame 72.png">
+                <figcaption class="figcap1">Built for every business</figcaption>
               </figire>
             </div>
             <div class="with-checkmark">
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>Website</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>Mobile apps</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>E-Commerce</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>SaaS</figcaption>
-              </figire>
+              <div class="with-checkmark1">
+                <figire class="checkmark">
+                  <img src="images/Check.png">
+                  <figcaption>Website</figcaption>
+                </figire>
+                <figire class="checkmark fig1">
+                  <img src="images/Check.png">
+                  <figcaption class="figcap2">Mobile apps</figcaption>
+                </figire>
+              </div>
+              <div class="with-checkmark2">
+                <figire class="checkmark">
+                  <img src="images/Check.png">
+                  <figcaption>E-Commerce</figcaption>
+                </figire>
+                <figire class="checkmark fig1">
+                  <img src="images/Check.png" class="newfig">
+                  <figcaption class="figcap2">SaaS</figcaption>
+                </figire>
+            </div>
             </div>
           </div>
           <div class="second line">
             <div class="no-checkmark">
               <figire>
-                <img src="Frame 72 (1).png">
-                <figcaption>complies with privacy laws</figcaption>
+                <img src="images/Frame 72 (1).png">
+                <figcaption class="figcap1">Complies with privacy laws</figcaption>
               </figire>
             </div>
             <div class="with-checkmark">
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>worldwide law</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>UK GDPR</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>GDPR</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>PIPEDA</figcaption>
-              </figire>
+              <div class="with-checkmark1">
+                <figire class="checkmark">
+                  <img src="images/Check.png">
+                  <figcaption>Website</figcaption>
+                </figire>
+                <figire class="checkmark fig1">
+                  <img src="images/Check.png">
+                  <figcaption class="figcap2">Mobile apps</figcaption>
+                </figire>
+              </div>
+              <div class="with-checkmark2">
+                <figire class="checkmark">
+                  <img src="images/Check.png">
+                  <figcaption>E-Commerce</figcaption>
+                </figire>
+                <figire class="checkmark fig1">
+                  <img src="images/Check.png" class="newfig">
+                  <figcaption class="figcap2">SaaS</figcaption>
+                </figire>
+            </div>
             </div>
           </div>
           <div class="third line">
             <div class="no-checkmark">
               <figire>
-                <img src="Frame 72 (2).png">
-                <figcaption>Easy to use</figcaption>
+                <img src="images/Frame 72 (2).png">
+                <figcaption class="figcap1">Easy to use</figcaption>
               </figire>
             </div>
             <div class="with-checkmark">
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>Customization Tools</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>Intuitive Builder</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>Automatic Updates</figcaption>
-              </figire>
-              <figire class="checkmark">
-                <img src="Check.png">
-                <figcaption>Embed options</figcaption>
-              </figire>
+              <div class="with-checkmark1">
+                <figire class="checkmark">
+                  <img src="images/Check.png">
+                  <figcaption>Website</figcaption>
+                </figire>
+                <figire class="checkmark fig1">
+                  <img src="images/Check.png">
+                  <figcaption class="figcap2">Mobile apps</figcaption>
+                </figire>
+              </div>
+              <div class="with-checkmark2">
+                <figire class="checkmark">
+                  <img src="images/Check.png">
+                  <figcaption>E-Commerce</figcaption>
+                </figire>
+                <figire class="checkmark fig1">
+                  <img src="images/Check.png" class="newfig">
+                  <figcaption class="figcap2">SaaS</figcaption>
+                </figire>
+            </div>
             </div>
           </div> 
         </div>
       </div>
-      <div id="fourth-page">
-        <div id="top">
-          <h2>How does our privacy policy generator work?</h2>
-          <p>Follow the simple steps laid out to get a custom privacy for your business site, software site or mobile app.</p>
+      <div id="sixth-page">
+        <div id="sixth-right">
+          <h3>Generate your free documentation</h3>
         </div>
+        <div id="sixth-left">
+          <button>Generate Documentation </button>
+        </div>
+      </div>
+
+      <!-- for fourth page -->
+      <div id="top">
+        <h2>How does our privacy policy generator <br>work?</h2>
+        <p>Follow the simple steps laid out to get a custom privacy for your business site, <br> software site or mobile app.</p>
+      </div>
+      <div id="fourth-page">
+        <div class="fourth1">
         <div id="bottom">
           <div id="bottom-left">
             <section>
               <div class="image-h">
-                <img src="Ellipse 15.png">
+                <img src="images/Ellipse 15.png">
                 <h3>Tell us a little about your business</h3>
               </div>
-                <p id="to-indent">we'll require answers to common questions so we can quickly and accurately create a documentation tailored to your needs.</p>
+                <p id="to-indent">We will require answers to common questions <br> so we can quickly and accurately create a <br> documentation tailored to your needs.</p>
             </section>
             <section>
               <div class="image-h">
-                <img src="Ellipse 16.png">
+                <img src="images/Ellipse 16.png">
                 <p>Give a few details</p>
               </div>
             </section>
             <section>
               <div class="image-h">
-                <img src="Ellipse 17.png">
+                <img src="images/Ellipse 17.png">
                 <p>process time and conditions</p>
               </div>
-              <button id="image-h-but">Generate policy</button>
+              <a href="#"> <button id ="docu" class="genPol"> Generate Policy</button> </a>
             </section>
           </div>
-          <div id="bottom-mid"></div>
-          <div id="bottom-right">
-            <img src="Screenshot 2022-12-09 000053.png">
           </div>
         </div>
+          <div class="fourth2">
+          <div id="bottom-mid"></div>
+          <div id="bottom-right">
+            <img src="images/Screenshot 2022-12-09 000053.png">
+          </div>
+        </div>
+      </div>
       </div>
       <div id="fifth-page">
         <h2 class="faq-heading">Privacy Policy FAQ</h2>
@@ -214,36 +258,37 @@
           </div>
         </section>
       </div>
-      <div id="sixth-page">
-        <div id="sixth-right">
-          <h3>Generate your free documentation</h3>
-        </div>
-        <div id="sixth-left">
-          <button>Generate Documentation </button>
-        </div>
-      </div>
+    </div>
     </main>
+    
     <footer>
-      <div id="for-img">
-        <img src="zuri logo 1 (1).png">
-        <figcaption>&copy; TeamcormorantII Services. All Rights Reserved</figcaption>
+      <div id="top-footer">
+          <div id="footer-img"><img src="./images/zuri logo 1.png" id="footer-image"></div>
+          <div id="footer-links">
+              <div id="top-foot-1">
+                  <p>Products</p>
+                  <div><a href="pp.html">Privacy Policy Generator</a><br />
+                  <a href="tc.html">T&Cs Generator</a></div>
+              </div>
+              <div id="top-foot-2">
+                  <p>Company</p>
+                  <a href="about.html">About us</a>
+              </div>
+              <div id="top-foot-3">
+                  <p>Support</p>
+                  <a href="contact.html">Contact us</a>
+              </div>
+          </div>
       </div>
-      <div>
-        <h2>Products</h2>
-        <ul>
-          <li>Privacy Policy Generator</li>
-          <li>T&C's Generator</li>
-        </ul>
+
+      <div id="bottom-footer">
+          <div id="copyright">&copy; 2022 Teamcormorant11 Services. All Rights Reserved</div>
+          <div id="footer-link">
+              <a href="pp.html">Privacy Policy</a>
+              <a href="tc.html">Terms and Condition</a>
+          </div>
       </div>
-      <div>
-        <h2>Company</h2>
-        <p>About Us</p>
-      </div>
-      <div>
-        <h2>Support</h2>
-        <p>Contact Us</p>
-      </div>
-    </footer>
+  </footer>
     <script src="script.js"></script>
   
   </body>

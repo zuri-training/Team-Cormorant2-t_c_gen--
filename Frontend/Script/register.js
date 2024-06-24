@@ -28,3 +28,4 @@ fetchAPI(userObj, '/signup', 'POST');
 // console.log(registerForm)
 
 registerForm.addEventListener('submit', registerUser);
+
